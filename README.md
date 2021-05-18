@@ -19,7 +19,7 @@ Run the following command in a terminal to install dependencies:
 
 Run main.py either through an IDE or via a terminal using:
 
-`python main.py
+`python app.py
 `
 
 Open a browser window, navigate to localhost:5000 or 127.0.0.1:5000
