@@ -11,7 +11,7 @@ def intro():  # create introduction page
     form = IntroForm()
     if form.validate_on_submit():
         name = request.form.get('name')
-        return render_template('hello.html', name=name)
+        return render_template('hello.html', name=name)  # Generates hello template with name parameter
     return render_template('index.html', form=form)
 
 
