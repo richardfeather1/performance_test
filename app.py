@@ -16,4 +16,4 @@ def intro():  # create introduction page
 
 
 if __name__ == '__main__':
-    app.run(port=5000, debug=True)  # runs in port 5000 by default, debug enabled to help with development.
+    app.run(host='0.0.0.0')

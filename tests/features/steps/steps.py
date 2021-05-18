@@ -23,5 +23,4 @@ finally:
     def step_imp(context):
         response = driver.find_element_by_id('greet').text
         assert response == 'Hello Jeffery'
-
-
+        driver.close()

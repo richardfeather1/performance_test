@@ -15,7 +15,7 @@ Run the following command in a terminal to install dependencies:
 `pip install -r requirements.txt
 `
 
-## Launch the app
+## Launch the app locally
 
 Run main.py either through an IDE or via a terminal using:
 
@@ -25,9 +25,17 @@ Run main.py either through an IDE or via a terminal using:
 Open a browser window, navigate to localhost:5000 or 127.0.0.1:5000
 
 
-## tests
 
-Tests are written in with the Behave framework.
+## Alternatively, build in Docker
+
+`docker build -t hello_world .`
+
+then:
+`docker run -p  127.0.0.1:5000:5000 hello_world`
+
+## Tests
+
+Tests are written with the Behave framework.
 
 Run either via an IDE, or cd into the tests directory via command line execute the following command:
 
