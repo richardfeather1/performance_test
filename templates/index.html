@@ -1,0 +1,6 @@
+<head><title>Introductions</title></head>
+<form method="POST" action="/", id="name-form">
+    {{ form.csrf_token }}
+    {{ form.name.label }} {{ form.name(size=50) }}
+    <input type="submit" value="Go", id="submit">
+</form>
